@@ -427,7 +427,7 @@ footer{
     /* sec-1 */
     .sec-1{
         width: 100%;
-        height: 45vh;
+        height: 55vh;
     }
     .body-container{
         top: 13%;
@@ -461,7 +461,7 @@ footer{
         justify-content: center;
     }
     .sec-3-img img{
-        width: 90%;
+        width: 97%;
         height: 100%;
         box-shadow: 0 30px 20px 0px rgba(0,0,0,0.3);
     }
@@ -496,13 +496,13 @@ footer{
         padding: 30px 20px;
     }
     .sec-2-sign-in img{
-        width: 10%;
+        width: 15%;
     }
     .sec-2-sign-in i{
         font-size: 50px;
     }
     .sec-2-sign-in:nth-child(2) img{
-        width: 15%;
+        width: 20%;
     }
     .sec-2 .start{
         display: none;
@@ -560,7 +560,8 @@ footer{
         justify-content: center;
     }
     .sec-5-inner-img img{
-        width: 95%;
+        width: 97%;
+        height: 100%;
     }
 
     /* Footer */
