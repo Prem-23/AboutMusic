@@ -50,6 +50,12 @@
 .nav .active:hover{
     color: rgb(132, 158, 236);
 }
+.nav{
+        display: none;
+        margin-top: 140px;
+        background-color: #ececec;
+        text-align: center;
+}
 .logins a{
     margin: 0 10px;
     padding: 6px 15px;
@@ -228,7 +234,7 @@
 .sec-4{
     width: 100%;
     height: 100vh;
-    background: url(img/band.jpg);
+    background: url(band.jpg);
     background-size: cover;
 }
 .sec-4-container{
@@ -318,7 +324,6 @@ footer{
 }
 .foot-inner{
     flex: 1;
-    /* margin-left: -70px; */
 }
 .foot-logo{
     display: flex;
@@ -414,12 +419,6 @@ footer{
         width: 30px;
         height: 21px;
         cursor: pointer;
-    }
-    .nav{
-        display: none;
-        margin-top: 140px;
-        background-color: #ececec;
-        text-align: center;
     }
     .nav.active{
         display: inline-block;
