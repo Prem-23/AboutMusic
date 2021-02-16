@@ -50,12 +50,15 @@
 .nav .active:hover{
     color: rgb(132, 158, 236);
 }
-.nav{
-        display: none;
-        margin-top: 140px;
-        background-color: #ececec;
-        text-align: center;
+/* .nav{
+    display: none;
+    margin-top: 140px;
+    background-color: #ececec;
+    text-align: center;
 }
+.nav1{
+    display: flex;
+} */
 .logins a{
     margin: 0 10px;
     padding: 6px 15px;
@@ -390,7 +393,7 @@ footer{
 }
 
 
-@media (max-width: 550px){
+@media (max-width: 750px){
     .head-container{
         width: 100%;
         height: 50px;
@@ -483,7 +486,7 @@ footer{
         height: 80vh;
         display: block;
         margin-top: -10px;
-        margin-bottom: 70px;
+        margin-bottom: 100px;
     }
     .sec-2-sign-in{
         text-align: center;
