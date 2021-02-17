@@ -239,6 +239,8 @@
     height: 100vh;
     background: url(band.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .sec-4-container{
     width: 85%;
@@ -256,6 +258,7 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    transition: .5s;
     line-height: 35px;
 }
 .sec-4-inner-text a{
